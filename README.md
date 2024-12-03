@@ -3,4 +3,6 @@ Desenvolvimento do projeto I da disciplina de Sistemas Evolutivos Aplicados a Ro
 
 # Definição de Algoritmo Genético
 Algoritmo de otimização baseado na Teoria da Evolução de Charles Darwin
+
 --
+# Como funciona?
