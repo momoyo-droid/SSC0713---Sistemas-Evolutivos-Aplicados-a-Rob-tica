@@ -19,30 +19,30 @@ ___
   para soluções não tão ótimas, ficando preso em máximos locais. Por outro lado, populações muito grandes aumentam o custo computacional, tornando o processo mais lento. O
   ideal é encontrar um equilíbrio que permita uma boa exploração do espaço de soluções.
 
-- Avaliação de cada indivíduo
+- Avaliação de cada indivíduo <br>
   Cada indivíduo da população é avaliado por meio de uma função chamada Fitness. Essa função mede a qualidade da solução que o indivíduo representa. Indivíduos com
   valores de fitness mais altos são considerados mais aptos, ou seja, têm maior chance de "sobreviver" e contribuir para as próximas gerações.
 
-- Seleção de alguns indivíduos
+- Seleção de alguns indivíduos <br>
   Com base na avaliação, selecionamos os indivíduos que participarão da próxima fase. O objetivo aqui é garantir que as melhores soluções sejam priorizadas, mas sem
-  perder a diversidade da população. Algumas das estratégias de seleção mais comuns incluem:
-    -- Proporcional ao Fitness: Indivíduos com fitness mais alto têm maior probabilidade de serem escolhidos, mas isso pode levar à convergência precoce.
-    -- Ranking: Os indivíduos são ordenados com base no fitness, garantindo uma pressão seletiva equilibrada, o que favorece a exploração contínua do espaço de soluções.
+  perder a diversidade da população. Algumas das estratégias de seleção mais comuns incluem: <br>
+    - Proporcional ao Fitness: Indivíduos com fitness mais alto têm maior probabilidade de serem escolhidos, mas isso pode levar à convergência precoce. <br>
+    - Ranking: Os indivíduos são ordenados com base no fitness, garantindo uma pressão seletiva equilibrada, o que favorece a exploração contínua do espaço de soluções.
 
-- Crossover e Mutação
+- Crossover e Mutação <br>
   Crossover (ou cruzamento): Esta é a fase em que dois indivíduos "pais" combinam suas características para gerar novos "filhos". Genes (cromossomos) de cada pai são
-  selecionados aleatoriamente, criando uma nova solução que pode herdar as melhores características de ambos.
+  selecionados aleatoriamente, criando uma nova solução que pode herdar as melhores características de ambos.<br>
   Mutação: Aqui, pequenas alterações são introduzidas nos genes dos indivíduos, com o objetivo de preservar a diversidade genética e evitar que o algoritmo fique preso em
   soluções subótimas. A taxa de mutação deve ser cuidadosamente ajustada — muito alta pode gerar caos (muita aleatoriedade entre os indivíduos), enquanto muito baixa pode
   reduzir a capacidade de exploração.
   
-- Concepção da nova geração
+- Concepção da nova geração <br>
   A nova geração deve ter o mesmo tamanho da anterior. Uma técnica comum nessa etapa é o elitismo, que preserva os melhores indivíduos da geração atual, garantindo que as
   soluções mais promissoras não sejam descartadas. Isso contribui para uma convergência mais eficiente, mantendo o progresso acumulado.
   
-- Finaliza algoritmo (ou repete os passos até que estar satisfeito com as soluções encontradas)
-  O algoritmo genético continua iterando até que uma condição de parada seja atendida. As condições mais comuns incluem:
-    -- Falta de progresso significativo entre as gerações (convergência).
-    -- Alcance de um nível de fitness considerado satisfatório.
-    -- Um número máximo de gerações predefinido.
+- Finaliza algoritmo (ou repete os passos até que estar satisfeito com as soluções encontradas) <br>
+  O algoritmo genético continua iterando até que uma condição de parada seja atendida. As condições mais comuns incluem: <br>
+    - Falta de progresso significativo entre as gerações (convergência). <br>
+    - Alcance de um nível de fitness considerado satisfatório. <br>
+    - Um número máximo de gerações predefinido.
 
