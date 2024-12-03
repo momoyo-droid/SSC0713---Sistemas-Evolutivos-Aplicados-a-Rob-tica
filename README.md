@@ -3,6 +3,11 @@ Desenvolvimento do projeto I da disciplina de Sistemas Evolutivos Aplicados a Ro
 
 # Sumário
 - [Definição de Algoritmo Genético](#definição-de-algoritmo-genético)
+- [Como funiona?](#como-funciona?)
+- [Estrutura padrão de um Algoritmo Genético](#estrutura-padrão-de-um-algoritmo-genético)
+- [O Problema da Mochila](#o-problema-da-mochila)
+
+___
 
 # Definição de Algoritmo Genético
 Algoritmo de otimização baseado na Teoria da Evolução de Charles Darwin
