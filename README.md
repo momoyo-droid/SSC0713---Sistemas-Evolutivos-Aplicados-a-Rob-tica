@@ -60,4 +60,3 @@ ___
 O problema da mochila consiste na escolha de itens de um conjunto m segundo um limite de capacidade do sistema L, costumeiramente dado por peso ou tamanho.<br>
 Deve-se preencher a mochila de forma a obter o máximo valor de utilidade. Cada item possui um peso p_i e um valor v_i.<br>
 Especificamente para este projeto, o problema é formulado da seguinte forma:
-![image](https://github.com/user-attachments/assets/87601201-8e82-488b-a46e-453d1a147a02)
