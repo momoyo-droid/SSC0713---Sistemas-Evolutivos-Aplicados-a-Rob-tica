@@ -3,7 +3,7 @@ Desenvolvimento do projeto I da disciplina de Sistemas Evolutivos Aplicados a Ro
 
 # Sumário
 - [Definição de Algoritmo Genético](#definição-de-algoritmo-genético)
-- [Como funiona?](#como-funciona?)
+- [Como funciona?](#como-funciona?)
 - [Estrutura padrão de um Algoritmo Genético](#estrutura-padrão-de-um-algoritmo-genético)
 - [O Problema da Mochila](#o-problema-da-mochila)
 
@@ -57,5 +57,7 @@ ___
 
 # O Problema da Mochila
 
+O problema da mochila consiste na escolha de itens de um conjunto m segundo um limite de capacidade do sistema L, costumeiramente dado por peso ou tamanho.<br>
+Deve-se preencher a mochila de forma a obter o máximo valor de utilidade. Cada item possui um peso p_i e um valor v_i.<br>
 
 
