@@ -59,51 +59,47 @@ ___
 
 O problema da mochila consiste na escolha de itens de um conjunto m segundo um limite de capacidade do sistema L, costumeiramente dado por peso ou tamanho.<br>
 Deve-se preencher a mochila de forma a obter o máximo valor de utilidade. Cada item possui um peso p_i e um valor v_i.<br>
-Especificamente para este projeto, o problema é formulado da seguinte forma:
-# Problema da Mochila Limitada
+Especificamente para este projeto, o problema é formulado da seguinte forma:<br>
+## Problema da Mochila Limitada
 
-O problema da mochila limitada consiste em, dada uma mochila de capacidade \( L \) e \( m \) itens, cujos pesos \( p_i \) e valores de utilidade \( v_i \) são conhecidos, escolher a quantidade \( x_i \) de cada item que será colocada na mochila. Há um limite \( d_i \) que define a quantidade máxima de cada item que pode ser incluída.
+O problema da mochila limitada consiste em, dada uma mochila de capacidade `L` e `m` itens, cujos pesos `p_i` e valores de utilidade `v_i` são conhecidos, escolher a quantidade `x_i` de cada item que será colocada na mochila. Há um limite `d_i` que define a quantidade máxima de cada item que pode ser incluída.<br>
 
-## Formulação Matemática
-1. **Maximizar o valor total na mochila:**
-   \[
-   \text{maximizar } \sum_{i=1}^{m} v_i x_i
-   \]
-   
+### Formulação Matemática
+1. **Maximizar o valor total na mochila:**<br>
+   Maximizar:  <br>
+   `sum(v_i * x_i para i = 1 até m)`
+
 2. **Restrições:**
-   \[
-   \sum_{i=1}^{m} p_i x_i \leq L
-   \]
-   \[
-   0 \leq x_i \leq d_i \quad \text{e } x_i \in \mathbb{N}
-   \]
+   Peso total:  <br>
+   `sum(p_i * x_i para i = 1 até m) <= L`
+   
+   Quantidade de itens:<br>
+   `0 <= x_i <= d_i`  
+   e `x_i` deve ser um número natural (`x_i ∈ N`).
 
 ### Definições:
-- \( x_i \): quantidade do item \( i \) colocada na mochila.
-- \( v_i \): valor de utilidade do item \( i \).
-- \( p_i \): peso do item \( i \).
-- \( L \): capacidade total da mochila.
-- \( m \): número de tipos de itens.
-- \( d_i \): quantidade máxima do item \( i \) que pode ser colocado.
+- `x_i`: quantidade do item `i` colocada na mochila.<br>
+- `v_i`: valor de utilidade do item `i`.<br>
+- `p_i`: peso do item `i`.<br>
+- `L`: capacidade total da mochila.<br>
+- `m`: número de tipos de itens.<br>
+- `d_i`: quantidade máxima do item `i` que pode ser colocado.<br>
 
-## Codificação do Indivíduo
+#### Codificação do Indivíduo
 A codificação é feita utilizando números inteiros. Cada posição do indivíduo representa a quantidade de um tipo específico de item que será colocado na mochila.
 
-## Função de Fitness
+#### Função de Fitness
 A função de fitness avalia a aptidão de cada indivíduo, aplicando uma penalização se a capacidade da mochila for excedida.
 
-\[
-f_i = \sum_{i=1}^{m} v_i x_i - c \times \max \left( 0, \sum_{i=1}^{m} p_i x_i - L \right)
-\]
-
+A função de fitness é dada por:<br>
+`f_i = sum(v_i * x_i para i = 1 até m) - c * max(0, sum(p_i * x_i para i = 1 até m) - L)`
+<br>
 Onde:
-- \( c \) é um termo de penalização, dado por:
-  \[
-  c = \left( \frac{1}{eL} \right) \sum_{i=1}^{m} v_i x_i
-  \]
-
+- `c` é um termo de penalização, dado por:
+  `c = (1 / (e * L)) * sum(v_i * x_i para i = 1 até m)`
+<br>
 Essa penalização é aplicada apenas quando o peso total excede a capacidade da mochila.
-
-### Referências:
+___
+# Referências:
 - Goldberg, 1989
 - Freitas et al., 1993
