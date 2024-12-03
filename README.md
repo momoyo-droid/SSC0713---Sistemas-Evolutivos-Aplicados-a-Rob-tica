@@ -61,44 +61,7 @@ O problema da mochila consiste na escolha de itens de um conjunto m segundo um l
 Deve-se preencher a mochila de forma a obter o máximo valor de utilidade. Cada item possui um peso p_i e um valor v_i.<br>
 
 Especificamente para este projeto, o problema é formulado da seguinte forma:<br>
-## Problema da Mochila Limitada
-
-O problema da mochila limitada consiste em, dada uma mochila de capacidade `L` e `m` itens, cujos pesos `p_i` e valores de utilidade `v_i` são conhecidos, escolher a quantidade `x_i` de cada item que será colocada na mochila. Há um limite `d_i` que define a quantidade máxima de cada item que pode ser incluída.<br>
-
-### Formulação Matemática
-1. **Maximizar o valor total na mochila:**<br>
-   Maximizar:  <br>
-   `sum(v_i * x_i para i = 1 até m)`
-
-2. **Restrições:**
-   Peso total:  <br>
-   `sum(p_i * x_i para i = 1 até m) <= L`
-   
-   Quantidade de itens:<br>
-   `0 <= x_i <= d_i` e `x_i` deve ser um número natural (`x_i ∈ N`).
-
-### Definições:
-- `x_i`: quantidade do item `i` colocada na mochila.<br>
-- `v_i`: valor de utilidade do item `i`.<br>
-- `p_i`: peso do item `i`.<br>
-- `L`: capacidade total da mochila.<br>
-- `m`: número de tipos de itens.<br>
-- `d_i`: quantidade máxima do item `i` que pode ser colocado.<br>
-
-#### Codificação do Indivíduo
-A codificação é feita utilizando números inteiros. Cada posição do indivíduo representa a quantidade de um tipo específico de item que será colocado na mochila.
-
-#### Função de Fitness
-A função de fitness avalia a aptidão de cada indivíduo, aplicando uma penalização se a capacidade da mochila for excedida.
-
-A função de fitness é dada por:<br>
-`f_i = sum(v_i * x_i para i = 1 até m) - c * max(0, sum(p_i * x_i para i = 1 até m) - L)` <br>
-Onde:
-- `c` é um termo de penalização, dado por:<br>
-  `c = (1 / (e * L)) * sum(v_i * x_i para i = 1 até m)`
-Essa penalização é aplicada apenas quando o peso total excede a capacidade da mochila.<br>
-
-___
+![img](https://github.com/user-attachments/assets/7d0a652d-e2df-419d-afe6-7bbf584d047c)
 
 # Referências:
 - Goldberg, 1989
