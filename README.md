@@ -6,6 +6,7 @@ Desenvolvimento do projeto I da disciplina de Sistemas Evolutivos Aplicados a Ro
 - [Como funciona?](#como-funciona?)
 - [Estrutura padrão de um Algoritmo Genético](#estrutura-padrão-de-um-algoritmo-genético)
 - [O Problema da Mochila](#o-problema-da-mochila)
+- [Código do Projeto](#código-do-projeto)
 
 ___
 
@@ -63,6 +64,13 @@ Deve-se preencher a mochila de forma a obter o máximo valor de utilidade. Cada 
 Especificamente para este projeto, o problema é formulado da seguinte forma:<br>
 ![img](https://github.com/user-attachments/assets/7d0a652d-e2df-419d-afe6-7bbf584d047c)
 
+# Código do Projeto
+O acesso para o código do projeto e visualização detalhada do funcionamento do algoritmo, podem ser vistos [aqui](https://colab.research.google.com/drive/1liCLaczXpSgoYrw8UKcAaLvvBBeLDHDu?usp=sharing)
+
 # Referências:
-- Goldberg, 1989
-- Freitas et al., 1993
+- [Khan Academy - Teoria da Evolução e Seleção Natural](https://pt.khanacademy.org/science/ap-biology/natural-selection/natural-selection-ap/v/introduction-to-evolution-and-natural-selection)
+- [Algoritmo Genético para o Problema da Mochila](https://vitorebatista.medium.com/algoritmo-gen%C3%A9tico-para-o-problema-da-mochila-5910f90f9488)
+- [Problema do Caixeiro Viajante](http://www.mat.ufrgs.br/~portosil/caixeiro.html)
+- [Problema da Mochila de forma didática](https://www.youtube.com/watch?v=SUcP4uah8JU&ab_channel=UniversoDiscreto)
+- [Algoritmos Genéticos - PUC Rio](https://www.youtube.com/watch?v=xtHMSJLnKsE&list=PLWpneBiTMe-1bViAGSa8c_aUWE8Gj8ADf&index=2&ab_channel=DeveloperAcademyPUC-Rio)
+- [Aprendizado de Máquinas - Algoritmos Genéticos - UNIVESP](https://www.youtube.com/watch?v=tfPYwaNkI7o&ab_channel=UNIVESP)
