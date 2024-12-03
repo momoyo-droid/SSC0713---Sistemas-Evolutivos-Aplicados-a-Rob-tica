@@ -14,7 +14,7 @@ Sendo assim, especificamente para este projeto, vamos trabalhar com o algoritmo 
 ___
 
 # Estrutura padrão de um Algoritmo Genético
-- Inicialização da População
+- Inicialização da População <br>
   O primeiro passo é criar uma população inicial de soluções candidatas. O tamanho dessa população é crucial: se for muito pequena, o algoritmo pode convergir rapidamente
   para soluções não tão ótimas, ficando preso em máximos locais. Por outro lado, populações muito grandes aumentam o custo computacional, tornando o processo mais lento. O
   ideal é encontrar um equilíbrio que permita uma boa exploração do espaço de soluções.
