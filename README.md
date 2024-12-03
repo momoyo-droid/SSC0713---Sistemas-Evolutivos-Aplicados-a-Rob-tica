@@ -59,6 +59,7 @@ ___
 
 O problema da mochila consiste na escolha de itens de um conjunto m segundo um limite de capacidade do sistema L, costumeiramente dado por peso ou tamanho.<br>
 Deve-se preencher a mochila de forma a obter o máximo valor de utilidade. Cada item possui um peso p_i e um valor v_i.<br>
+
 Especificamente para este projeto, o problema é formulado da seguinte forma:<br>
 ## Problema da Mochila Limitada
 
@@ -74,8 +75,7 @@ O problema da mochila limitada consiste em, dada uma mochila de capacidade `L` e
    `sum(p_i * x_i para i = 1 até m) <= L`
    
    Quantidade de itens:<br>
-   `0 <= x_i <= d_i`  
-   e `x_i` deve ser um número natural (`x_i ∈ N`).
+   `0 <= x_i <= d_i` e `x_i` deve ser um número natural (`x_i ∈ N`).
 
 ### Definições:
 - `x_i`: quantidade do item `i` colocada na mochila.<br>
@@ -92,14 +92,14 @@ A codificação é feita utilizando números inteiros. Cada posição do indiví
 A função de fitness avalia a aptidão de cada indivíduo, aplicando uma penalização se a capacidade da mochila for excedida.
 
 A função de fitness é dada por:<br>
-`f_i = sum(v_i * x_i para i = 1 até m) - c * max(0, sum(p_i * x_i para i = 1 até m) - L)`
-<br>
+`f_i = sum(v_i * x_i para i = 1 até m) - c * max(0, sum(p_i * x_i para i = 1 até m) - L)` <br>
 Onde:
-- `c` é um termo de penalização, dado por:
+- `c` é um termo de penalização, dado por:<br>
   `c = (1 / (e * L)) * sum(v_i * x_i para i = 1 até m)`
-<br>
-Essa penalização é aplicada apenas quando o peso total excede a capacidade da mochila.
+Essa penalização é aplicada apenas quando o peso total excede a capacidade da mochila.<br>
+
 ___
+
 # Referências:
 - Goldberg, 1989
 - Freitas et al., 1993
