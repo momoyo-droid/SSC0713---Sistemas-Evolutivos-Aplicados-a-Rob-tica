@@ -7,6 +7,7 @@ Desenvolvimento do projeto I da disciplina de Sistemas Evolutivos Aplicados a Ro
 - [Estrutura padrão de um Algoritmo Genético](#estrutura-padrão-de-um-algoritmo-genético)
 - [O Problema da Mochila](#o-problema-da-mochila)
 - [Código do Projeto](#código-do-projeto)
+- [Referências](#referencias)
 
 ___
 
