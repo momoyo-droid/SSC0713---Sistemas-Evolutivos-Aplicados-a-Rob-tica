@@ -65,7 +65,7 @@ Especificamente para este projeto, o problema é formulado da seguinte forma:<br
 ![img](https://github.com/user-attachments/assets/7d0a652d-e2df-419d-afe6-7bbf584d047c)
 
 # Código do Projeto
-O acesso para o código do projeto e visualização detalhada do funcionamento do algoritmo, podem ser vistos [aqui]([https://colab.research.google.com/drive/1liCLaczXpSgoYrw8UKcAaLvvBBeLDHDu?usp=sharing](https://colab.research.google.com/drive/19JrxqGtlCFdJXY_Isvzhmet4W6kTU9VE?usp=sharing))
+O acesso para o código do projeto e visualização detalhada do funcionamento do algoritmo, podem ser vistos [aqui](https://colab.research.google.com/drive/19JrxqGtlCFdJXY_Isvzhmet4W6kTU9VE?authuser=1#scrollTo=7nJtlyBkJsGe)
 
 # Referências:
 - [Khan Academy - Teoria da Evolução e Seleção Natural](https://pt.khanacademy.org/science/ap-biology/natural-selection/natural-selection-ap/v/introduction-to-evolution-and-natural-selection)
