@@ -7,6 +7,7 @@ Desenvolvimento do projeto I da disciplina de Sistemas Evolutivos Aplicados a Ro
 - [Estrutura padrão de um Algoritmo Genético](#estrutura-padrão-de-um-algoritmo-genético)
 - [O Problema da Mochila](#o-problema-da-mochila)
 - [Código do Projeto](#código-do-projeto)
+- [Referências](#referencias)
 
 ___
 
@@ -65,7 +66,8 @@ Especificamente para este projeto, o problema é formulado da seguinte forma:<br
 ![img](https://github.com/user-attachments/assets/7d0a652d-e2df-419d-afe6-7bbf584d047c)
 
 # Código do Projeto
-O acesso para o código do projeto e visualização detalhada do funcionamento do algoritmo, podem ser vistos [aqui](https://colab.research.google.com/drive/19JrxqGtlCFdJXY_Isvzhmet4W6kTU9VE?authuser=1#scrollTo=7nJtlyBkJsGe)
+O acesso para o código do projeto e visualização detalhada do funcionamento do algoritmo, podem ser vistos [aqui](https://colab.research.google.com/drive/19JrxqGtlCFdJXY_Isvzhmet4W6kTU9VE?authuser=1#scrollTo=7nJtlyBkJsGe).
+O código pode ser executado na plataforma Colab Research da Google, basta acessar o link mencionado, acessar a aba de `Ambiente de Execução` e clicar em `Executar Tudo` (ou utilizar o atalho `CTRL+F9`)
 
 # Referências:
 - [Khan Academy - Teoria da Evolução e Seleção Natural](https://pt.khanacademy.org/science/ap-biology/natural-selection/natural-selection-ap/v/introduction-to-evolution-and-natural-selection)
